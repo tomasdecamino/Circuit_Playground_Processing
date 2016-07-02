@@ -16,6 +16,7 @@ float aX, aY, aZ;
 void setup() {
   println(Serial.list());
   //Seleccionar puerto de la lista
+  //change port name to wherever playground is connected
   port = new Serial(this, "/dev/ttyACM0", 9600);
   port.bufferUntil('\n');  //clear the buffer
   size(600, 600);
