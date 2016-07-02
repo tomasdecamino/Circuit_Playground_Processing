@@ -17,7 +17,7 @@ void setup() {
 
 void loop() {
 
-  /************* TEST CAPTOUCH */
+  /************* CAPTOUCH */
   //Capsense #3
   Serial.print(CircuitPlayground.readCap(3));
   Serial.print(',');
@@ -47,7 +47,7 @@ void loop() {
   Serial.print(CircuitPlayground.slideSwitch());
   Serial.print(',');
 
-  /************* BOTH BUTTONS */
+  /************* BUTTONS */
   Serial.print(CircuitPlayground.leftButton());
   Serial.print(',');
   Serial.print(CircuitPlayground.rightButton());
@@ -57,7 +57,7 @@ void loop() {
   Serial.print(CircuitPlayground.lightSensor());
   Serial.print(',');
 
-  /************* TEST SOUND SENSOR */
+  /************* SOUND SENSOR */
   Serial.print(CircuitPlayground.soundSensor());
   Serial.print(',');
 
