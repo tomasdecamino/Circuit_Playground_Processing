@@ -1,3 +1,4 @@
+//Tomas de Camino Beck
 //data order:
 //cap3(0),cap2(1),cap0(2),cap1(3),cap12(4),cap6(5),cap9(6),cap10(7),slide(8),
 //button_left(9),button_right(10),light(11),sound(12),X(13),Y(14),Z(15),temp(16)
